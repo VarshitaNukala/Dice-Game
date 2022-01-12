@@ -1,0 +1,66 @@
+*{
+    font-family: 'Merriweather', serif;
+  
+}
+
+body{
+    background-color: #FFE2E2;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color:#C06C84;
+    font-size: 3rem;
+    margin:30px;
+    font-weight: bold;
+}
+button{
+    border:0;
+    outline:none;
+}
+
+.btn{
+    color:#D83A56;
+    border-color: #D83A56;
+}
+.btn:hover{
+    color:white;
+    border-color: #88304E;
+    background-color: #88304E;
+}
+/* removng default highlight */
+*:focus:not(:focus-visible) {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.btn-outline-danger{
+    border-radius: 0;
+    box-shadow:none;
+   
+}
+
+
+h2{
+    color:#F67280;
+    font-size:2rem;
+}
+
+.dicee{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.player1,.player2{
+    padding:30px;
+    color:#88304E;
+    font-size:2rem;
+}
+
+#score1,#score2{
+    height:200px;
+    width:200px;
+    
+}
